@@ -7,15 +7,17 @@ new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    spaceBetween: 50,
     breakpoints: {
-        0: {
-            slidesPerView: 1.5,
-            spaceBetween: 50,
+        1: {
+            slidesPerView: 1,
             centeredSlides: true
+        },
+        460: {
+            slidesPerView: 1.5,
         },
         768: {
             slidesPerView: 2,
-            spaceBetween: 0
         },
         992: { },
         1200: {
