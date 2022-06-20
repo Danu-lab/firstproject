@@ -7,29 +7,31 @@ new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    spaceBetween: 50,
+    spaceBetween: 0,
     breakpoints: {
         // 1: {
         //     slidesPerView: 1,
         // },
-        1: {
-            slidesPerView: 1.25,
+        320: {
+            slidesPerView: 1,
             centeredSlides: true,
+
         },
-        460: {
-            slidesPerView: 1.25,
+        380: {
+            slidesPerView: 1.5,
             centeredSlides: true,
+            spaceBetween: 10,
+        },
+        450: {
+            slidesPerView: 1.5,
+            centeredSlides: true,
+            spaceBetween: 0
         },
         530: {
-            slidesPerView: 1.5,
-        },
-        768: {
             slidesPerView: 2,
         },
-        992: { },
-        1200: {
+        1000: {
             slidesPerView: 3,
-            
         }
     }
 });

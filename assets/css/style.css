@@ -201,7 +201,16 @@ body {
             -----------------------------------*/
   position: relative;
   background-color: #6556c9;
-  padding: 3rem 1rem 0;
+  padding: 3rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .page-wrapper .main .main-features .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .page-wrapper .main .main-features .section-desc {
@@ -227,8 +236,15 @@ body {
 }
 
 .page-wrapper .main .main-features .swiper .swiper-wrapper .card {
+  width: 20rem;
   padding: 3.5rem 2rem 2rem 2rem;
   border-radius: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .page-wrapper .main .main-features .swiper .swiper-wrapper .card {
+    width: 18rem;
+  }
 }
 
 .page-wrapper .main .main-features .swiper .swiper-wrapper .card.light-purple {
