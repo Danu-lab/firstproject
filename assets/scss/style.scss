@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+/* 1. Config */
+@import 'config/variabless';
+
+/* 2. Mixins */
+@import 'mixins/breakpoint';
+
+/* . Pages */
+@import 'pages/game';
