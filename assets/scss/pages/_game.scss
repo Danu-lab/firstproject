@@ -273,12 +273,12 @@ body {
                         .about-banner {
                             top: -20% !important;
                             right: 0 !important;
+                            height: 40rem;
                         }
                     }
                     @include sl-media-lg {
                         .about-banner {
                             transform: translateX(50%);
-                            width: 32rem;
                             height: 34rem;
                         }
                     }
@@ -286,8 +286,8 @@ body {
                         position: absolute;
                         top: 0;
                         right: 50%;
-                        width: 37rem;
-                        height: 40rem;
+                        width: 32rem;
+                        height: 45rem;
                         background-image: url('./../images/desc_bg.png');
                         background-repeat: no-repeat;
                         background-position:center;  

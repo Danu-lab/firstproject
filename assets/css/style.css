@@ -301,6 +301,7 @@ body {
   .page-wrapper .main .about-section .container .about-wrapper .about-banner {
     top: -20% !important;
     right: 0 !important;
+    height: 40rem;
   }
 }
 
@@ -308,7 +309,6 @@ body {
   .page-wrapper .main .about-section .container .about-wrapper .about-banner {
     -webkit-transform: translateX(50%);
             transform: translateX(50%);
-    width: 32rem;
     height: 34rem;
   }
 }
@@ -317,8 +317,8 @@ body {
   position: absolute;
   top: 0;
   right: 50%;
-  width: 37rem;
-  height: 40rem;
+  width: 32rem;
+  height: 45rem;
   background-image: url("./../images/desc_bg.png");
   background-repeat: no-repeat;
   background-position: center;
