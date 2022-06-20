@@ -219,6 +219,13 @@ body {
   display: inline-block;
 }
 
+@media screen and (max-width: 576px) {
+  .page-wrapper .main .main-features .section-title {
+    max-width: 19rem;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .page-wrapper .main .main-features .section-swiper {
     margin-top: -7rem;

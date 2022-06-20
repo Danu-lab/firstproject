@@ -191,6 +191,12 @@ body {
                 margin-bottom: 0;
                 display: inline-block;
             }
+            @include sl-media-sm {
+                .section-title {
+                    max-width: 19rem; 
+                    margin: 0 auto;
+                }
+            }
             @include ls-media-lg {
                 .section-swiper {
                     margin-top: -7rem;
@@ -278,7 +284,7 @@ body {
             @include sl-media-md {
                 & {
                     min-height: 82rem;
-    height: 89vh;
+                    height: 89vh;
                 }
             }
             @include ls-media-lg {
