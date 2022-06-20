@@ -394,7 +394,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .page-wrapper .main .block-section .block-wrapper {
-    padding: 10rem 0 5rem 0 !important;
+    padding: 2rem 0 5rem 0 !important;
   }
 }
 

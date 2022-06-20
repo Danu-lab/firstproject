@@ -351,7 +351,7 @@ body {
             background-color: rgb(115, 100, 222);
             @include sl-media-lg {
                 .block-wrapper {
-                    padding: 10rem 0 5rem 0 !important;
+                    padding: 2rem 0 5rem 0 !important;
                 }
             }
             @include sl-media-sm {
