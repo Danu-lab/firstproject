@@ -201,7 +201,7 @@ body {
             -----------------------------------*/
   position: relative;
   background-color: #6556c9;
-  padding: 3rem 0;
+  padding-top: 3rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -406,6 +406,10 @@ body {
 
 .page-wrapper .main .block-section .block-wrapper {
   padding: 2rem 0;
+}
+
+.page-wrapper .footer {
+  background-color: #7364de;
 }
 
 @media screen and (max-width: 992px) {

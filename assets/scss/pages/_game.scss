@@ -177,7 +177,7 @@ body {
             -----------------------------------*/
             position: relative;
             background-color: rgb(101, 86, 201);
-            padding: 3rem 0;
+            padding-top: 3rem;
             @include sl-media-xl{
                 .container {
                     width: 100%;
@@ -364,7 +364,12 @@ body {
             }
         }   
     }
+    .footer {
+        background-color: #7364de;
+    }
 }
+
+
 
 @include sl-media-lg {
     html {
