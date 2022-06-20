@@ -90,18 +90,12 @@ body {
 .page-wrapper .main {
   display: block;
   position: relative;
-  /*----------------------------------
-            section 1
-        -----------------------------------*/
-  /*----------------------------------
-            section 2
-        -----------------------------------*/
-  /*----------------------------------
-            section 3
-        -----------------------------------*/
 }
 
 .page-wrapper .main .intro-section {
+  /*----------------------------------
+                section 1
+            -----------------------------------*/
   position: relative;
   min-height: 32rem;
   height: 35vh;
@@ -187,6 +181,9 @@ body {
 }
 
 .page-wrapper .main .main-features {
+  /*----------------------------------
+                section 2
+            -----------------------------------*/
   position: relative;
   background-color: #6556c9;
   padding: 3rem 1rem 0;
@@ -273,6 +270,9 @@ body {
 }
 
 .page-wrapper .main .about-section {
+  /*----------------------------------
+                section 3
+            -----------------------------------*/
   position: relative;
   background-color: #7364de;
   padding: 15rem 0 8rem 0;

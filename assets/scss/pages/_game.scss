@@ -85,10 +85,10 @@ body {
     .main {
         display: block; 
         position: relative;
-        /*----------------------------------
-            section 1
-        -----------------------------------*/
         .intro-section {
+            /*----------------------------------
+                section 1
+            -----------------------------------*/
             position: relative;
             min-height: 32rem;
             height: 35vh;
@@ -149,9 +149,6 @@ body {
                 }
             }
         }
-        /*----------------------------------
-            section 2
-        -----------------------------------*/
         .section-title {
             font-size: 3.5rem;
             font-weight: 800;
@@ -166,6 +163,9 @@ body {
             letter-spacing: -0.005em;
         }
         .main-features {
+            /*----------------------------------
+                section 2
+            -----------------------------------*/
             position: relative;
             background-color: rgb(101, 86, 201);
             padding: 3rem 1rem 0;
@@ -242,9 +242,6 @@ body {
                 }
             }
         }
-        /*----------------------------------
-            section 3
-        -----------------------------------*/
         @include sl-media-lg {
             .about-section {
                 min-height: 69rem;
@@ -252,8 +249,10 @@ body {
             }
         }
         .about-section {
+            /*----------------------------------
+                section 3
+            -----------------------------------*/
             position: relative;
-           
             background-color: rgb(115, 100, 222);
             padding: 15rem 0 8rem 0;
             .container {
