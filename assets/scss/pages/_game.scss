@@ -41,7 +41,6 @@ body {
             button {
                 font-size: 2rem;
                 border: none;
-    
                 &:focus {
                     border: none;
                     outline: none;
@@ -73,6 +72,7 @@ body {
             }
             .navbar-nav {
                 li a {
+                    font-size: 1.5rem;
                     color: #f7f8f9 !important;
                     &:hover {
                         opacity: 0.8;
@@ -123,6 +123,14 @@ body {
                         font-size: 1.8em;
                         letter-spacing: 0.025em;
                         margin: 0;
+                        @include sl-media-md {
+                            span {
+                                background-color: #5445CB;
+                                color: #E9DDD8;
+                                padding: 0.35rem 0.55rem;
+                                border-radius: 0.35rem;
+                            }
+                        }
                     }
                     .banner-title {
                         text-transform: uppercase;
@@ -252,9 +260,17 @@ body {
             /*----------------------------------
                 section 3
             -----------------------------------*/
+            @include ls-media-lg {
+                & {
+                    min-height: 68rem;
+                    height: 71vh;
+                }
+            }
             position: relative;
             background-color: rgb(115, 100, 222);
-            padding: 15rem 0 8rem 0;
+            padding: 15rem 0 0rem 0;
+            min-height: 80rem;
+            height: 83vh;
             .container {
                 position: relative;
                 left: 0;
@@ -286,7 +302,7 @@ body {
                         position: absolute;
                         top: 0;
                         right: 50%;
-                        width: 32rem;
+                        width: 50rem;
                         height: 45rem;
                         background-image: url('./../images/desc_bg.png');
                         background-repeat: no-repeat;
