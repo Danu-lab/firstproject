@@ -80,8 +80,13 @@ body {
 }
 
 .page-wrapper .header nav .navbar-nav li a {
-  font-size: 1.5rem;
   color: #f7f8f9 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .page-wrapper .header nav .navbar-nav li a {
+    font-size: 1.5rem;
+  }
 }
 
 .page-wrapper .header nav .navbar-nav li a:hover {
@@ -272,13 +277,6 @@ body {
   background-color: #fff;
 }
 
-@media screen and (max-width: 992px) {
-  .page-wrapper .main .about-section {
-    min-height: 69rem;
-    height: 105vh;
-  }
-}
-
 .page-wrapper .main .about-section {
   /*----------------------------------
                 section 3
@@ -288,6 +286,13 @@ body {
   padding: 15rem 0 0rem 0;
   min-height: 80rem;
   height: 83vh;
+}
+
+@media screen and (max-width: 992px) {
+  .page-wrapper .main .about-section {
+    min-height: 69rem;
+    height: 105vh;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -319,7 +324,7 @@ body {
 @media screen and (min-width: 992px) {
   .page-wrapper .main .about-section .container .about-wrapper .about-banner {
     top: -20% !important;
-    right: 0 !important;
+    right: -15% !important;
     height: 40rem;
   }
 }
@@ -347,6 +352,24 @@ body {
 
 .page-wrapper .main .about-section .container .about-wrapper .section-desc {
   width: 24rem;
+}
+
+.page-wrapper .main .block-section {
+  /*----------------------------------
+                section 4
+            -----------------------------------*/
+  position: relative;
+  background-color: #7364de;
+}
+
+@media screen and (max-width: 992px) {
+  .page-wrapper .main .block-section .block-wrapper {
+    padding: 10rem 0 5rem 0 !important;
+  }
+}
+
+.page-wrapper .main .block-section .block-wrapper {
+  padding: 2rem 0;
 }
 
 @media screen and (max-width: 992px) {
