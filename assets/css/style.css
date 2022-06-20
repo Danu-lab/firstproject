@@ -368,6 +368,12 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .page-wrapper .main .block-section .mob {
+    max-width: 300px;
+  }
+}
+
 .page-wrapper .main .block-section .block-wrapper {
   padding: 2rem 0;
 }

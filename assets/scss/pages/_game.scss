@@ -328,6 +328,11 @@ body {
                     padding: 10rem 0 5rem 0 !important;
                 }
             }
+            @include sl-media-sm {
+                .mob {
+                    max-width: 300px;
+                }
+            }
             .block-wrapper {
                 padding: 2rem 0;
             }
