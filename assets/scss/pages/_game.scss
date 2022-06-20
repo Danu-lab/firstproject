@@ -302,3 +302,15 @@ body {
     }
 }
 
+@include sl-media-lg {
+    html {
+        font-size: 85%;
+    }
+}
+
+@include sl-media-md {
+    html {
+        font-size: 75%;
+    }
+}
+
