@@ -8,12 +8,15 @@ new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     spaceBetween: 50,
+    centeredSlides: true,
     breakpoints: {
         1: {
             slidesPerView: 1,
-            centeredSlides: true
         },
         460: {
+            slidesPerView: 1.25,
+        },
+        530: {
             slidesPerView: 1.5,
         },
         768: {
