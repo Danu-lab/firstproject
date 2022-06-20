@@ -272,7 +272,13 @@ body {
             @include sl-media-lg {
                 & {
                     min-height: 69rem;
-                    height: 105vh;
+                    height: 72vh;
+                }
+            }
+            @include sl-media-md {
+                & {
+                    min-height: 82rem;
+    height: 89vh;
                 }
             }
             @include ls-media-lg {

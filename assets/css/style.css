@@ -307,7 +307,14 @@ body {
 @media screen and (max-width: 992px) {
   .page-wrapper .main .about-section {
     min-height: 69rem;
-    height: 105vh;
+    height: 72vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-wrapper .main .about-section {
+    min-height: 82rem;
+    height: 89vh;
   }
 }
 
