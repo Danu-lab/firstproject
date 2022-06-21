@@ -408,6 +408,57 @@ body {
   padding: 2rem 0;
 }
 
+.page-wrapper .main .contact-us-section {
+  position: relative;
+  background-color: #7364de;
+  min-height: 39rem;
+  height: 68vh;
+}
+
+.page-wrapper .main .contact-us-section .bg-web {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 74rem;
+  height: 34rem;
+  background-image: url("./../images/web.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: clamp(400px, 80%, 950px) auto;
+  z-index: 0;
+}
+
+.page-wrapper .main .contact-us-section .about-us-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-87%, -29%);
+          transform: translate(-87%, -29%);
+  max-width: 29rem;
+}
+
+@media screen and (max-width: 992px) {
+  .page-wrapper .main .contact-us-section .bg-web {
+    top: 4rem;
+    width: 36rem;
+    height: 57rem;
+    background-image: url("./../images/web_mob.png");
+  }
+  .page-wrapper .main .contact-us-section .about-us-content {
+    -webkit-transform: translate(-50%, 45%);
+            transform: translate(-50%, 45%);
+    max-width: 19rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-wrapper .main .contact-us-section .bg-web {
+    height: 65rem;
+  }
+}
+
 .page-wrapper .footer {
   font-family: 'Galvji';
   background-color: #7364de;
