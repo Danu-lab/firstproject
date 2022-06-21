@@ -63,7 +63,7 @@ body {
 @media screen and (min-width: 992px) {
   .page-wrapper .header nav .navbar-nav {
     -webkit-box-shadow: 0px 4px 4px 0px rgba(34, 60, 80, 0.45) inset, 0px 3px 4px -1px rgba(255, 255, 255, 0.45);
-    box-shadow: 0px 4px 4px 0px rgba(34, 60, 80, 0.45) inset, 0px 3px 4px -1px rgba(255, 255, 255, 0.45);
+            box-shadow: 0px 4px 4px 0px rgba(34, 60, 80, 0.45) inset, 0px 3px 4px -1px rgba(255, 255, 255, 0.45);
     border-radius: 1.6rem;
   }
   .page-wrapper .header nav div a.btn {
@@ -72,7 +72,7 @@ body {
     border-radius: 1.6rem;
     padding: 0.7rem 0;
     -webkit-box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
-    box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
+            box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
   }
   .page-wrapper .header nav div a.btn:hover {
     opacity: 0.9;
@@ -173,7 +173,7 @@ body {
   border-radius: 1.6rem;
   padding: 0.7rem 0;
   -webkit-box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
-  box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
+          box-shadow: 0px 11px 12px 2px rgba(34, 60, 80, 0.3);
 }
 
 .page-wrapper .main .intro-section .container .banner-content a.btn:hover {
@@ -257,13 +257,13 @@ body {
 .page-wrapper .main .main-features .swiper .swiper-wrapper .card.light-purple {
   background: #7A64E2;
   -webkit-box-shadow: 0px 5px 8px 2px rgba(189, 180, 237, 0.5) inset, 0px 0px 10px 2px rgba(74, 63, 154, 0.2);
-  box-shadow: 0px 5px 8px 2px rgba(189, 180, 237, 0.5) inset, 0px 0px 10px 2px rgba(74, 63, 154, 0.2);
+          box-shadow: 0px 5px 8px 2px rgba(189, 180, 237, 0.5) inset, 0px 0px 10px 2px rgba(74, 63, 154, 0.2);
 }
 
 .page-wrapper .main .main-features .swiper .swiper-wrapper .card.dark-purple {
   background: #5444CA;
   -webkit-box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
-  box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
+          box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
 }
 
 .page-wrapper .main .main-features .swiper .swiper-wrapper .card .image-hide {
@@ -414,35 +414,50 @@ body {
   padding: 10rem 0;
 }
 
-.page-wrapper .footer .line-left:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 3px;
-  height: 100%;
-  border-radius: 1rem;
-  background-color: #5646CC;
+@media screen and (max-width: 992px) {
+  .page-wrapper .footer .line-top:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 1rem;
+    background-color: #5646CC;
+  }
 }
 
-.page-wrapper .footer .line-right:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 0;
-  width: 3px;
-  height: 100%;
-  border-radius: 1rem;
-  background-color: #5646CC;
+@media screen and (min-width: 992px) {
+  .page-wrapper .footer .line-left:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 3px;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: #5646CC;
+  }
+  .page-wrapper .footer .line-right:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 3px;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: #5646CC;
+  }
 }
 
-.page-wrapper .footer .col {
+.page-wrapper .footer .col-lg {
   position: relative;
 }
 
-.page-wrapper .footer .col .bg .masc {
+.page-wrapper .footer .col-lg .bg .masc {
   position: relative;
   top: 0;
   left: 50%;
@@ -456,7 +471,14 @@ body {
   background-size: clamp(150px, 80%, 700px) auto;
 }
 
-.page-wrapper .footer .col .widget {
+@media screen and (max-width: 992px) {
+  .page-wrapper .footer .col-lg .bg .masc {
+    width: 12rem;
+    height: 19rem;
+  }
+}
+
+.page-wrapper .footer .col-lg .widget {
   position: relative;
   top: 50%;
   left: 0;
@@ -464,26 +486,26 @@ body {
           transform: translateY(-50%);
 }
 
-.page-wrapper .footer .col .widget ul li {
+.page-wrapper .footer .col-lg .widget ul li {
   text-transform: uppercase;
   list-style-type: none;
   margin-bottom: 1rem;
 }
 
-.page-wrapper .footer .col .widget ul li:last-of-type {
+.page-wrapper .footer .col-lg .widget ul li:last-of-type {
   margin-bottom: 0;
 }
 
-.page-wrapper .footer .col .widget ul li:hover {
+.page-wrapper .footer .col-lg .widget ul li:hover {
   opacity: 0.8;
 }
 
-.page-wrapper .footer .col .widget ul li .widget-link {
+.page-wrapper .footer .col-lg .widget ul li .widget-link {
   text-decoration: none;
   color: #f7f8f9;
 }
 
-.page-wrapper .footer .col .social-icons {
+.page-wrapper .footer .col-lg .social-icons {
   position: relative;
   top: 50%;
   left: 0;
@@ -492,12 +514,12 @@ body {
   padding-left: 2rem;
 }
 
-.page-wrapper .footer .col .social-icons p {
+.page-wrapper .footer .col-lg .social-icons p {
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
-.page-wrapper .footer .col .social-icons a {
+.page-wrapper .footer .col-lg .social-icons a {
   display: inline-block;
   background: #5445CB;
   padding: 1.4rem;
@@ -505,19 +527,19 @@ body {
   border-radius: 10rem;
   position: relative;
   -webkit-box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
-  box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
+          box-shadow: 0px 5px 8px 2px rgba(33, 26, 110, 0.5) inset, 0px 3px 2px 1px rgba(136, 123, 248, 0.3);
   margin-right: 0.5rem;
 }
 
-.page-wrapper .footer .col .social-icons a:last-of-type {
+.page-wrapper .footer .col-lg .social-icons a:last-of-type {
   margin-right: 0;
 }
 
-.page-wrapper .footer .col .social-icons a:hover {
+.page-wrapper .footer .col-lg .social-icons a:hover {
   opacity: 0.8;
 }
 
-.page-wrapper .footer .col .social-icons a i {
+.page-wrapper .footer .col-lg .social-icons a i {
   font-size: 1.4rem;
   color: #fff;
   position: absolute;
