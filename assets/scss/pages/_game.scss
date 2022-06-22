@@ -86,7 +86,7 @@ body {
             -----------------------------------*/
             position: relative;
             min-height: 32rem;
-            height: 35vh;
+            height: 24vh;
             background-color: rgb(115, 100, 222);
             .container {
                 z-index: 1;
@@ -273,7 +273,7 @@ body {
             @include ls-media-lg {
                 & {
                     min-height: 68rem;
-                    height: 71vh;
+                    height: 52vh;
                 }
             }
             position: relative;
@@ -350,7 +350,7 @@ body {
             position: relative;
             background-color: rgb(115, 100, 222);
             min-height: 39rem;
-            height: 68vh;
+            height: 30vh;
             .bg-web {
                 position: absolute;
                 top: 4rem;
@@ -372,6 +372,9 @@ body {
                 max-width: 29rem;
             }
             @include sl-media-lg {
+                & {
+                    min-height: 62rem;
+                }
                 .bg-web {
                     top: 4rem;
                     width: 36rem;
@@ -379,7 +382,7 @@ body {
                     background-image: url('./../images/web_mob.png');
                 }
                 .about-us-content {
-                    transform: translate(-50%, 45%);
+                    transform: translate(-50%, 100%);
                     max-width: 19rem;
                 }
             }
@@ -387,8 +390,8 @@ body {
                 .bg-web {
                     height: 65rem;
                 }
-            }
-        }   
+            } 
+        }  
     }
     .footer {
         font-family: 'Galvji';

@@ -104,7 +104,7 @@ body {
             -----------------------------------*/
   position: relative;
   min-height: 32rem;
-  height: 35vh;
+  height: 24vh;
   background-color: #7364de;
 }
 
@@ -328,7 +328,7 @@ body {
 @media screen and (min-width: 992px) {
   .page-wrapper .main .about-section {
     min-height: 68rem;
-    height: 71vh;
+    height: 52vh;
   }
 }
 
@@ -412,7 +412,7 @@ body {
   position: relative;
   background-color: #7364de;
   min-height: 39rem;
-  height: 68vh;
+  height: 30vh;
 }
 
 .page-wrapper .main .contact-us-section .bg-web {
@@ -440,6 +440,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  .page-wrapper .main .contact-us-section {
+    min-height: 62rem;
+  }
   .page-wrapper .main .contact-us-section .bg-web {
     top: 4rem;
     width: 36rem;
@@ -447,8 +450,8 @@ body {
     background-image: url("./../images/web_mob.png");
   }
   .page-wrapper .main .contact-us-section .about-us-content {
-    -webkit-transform: translate(-50%, 45%);
-            transform: translate(-50%, 45%);
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
     max-width: 19rem;
   }
 }
