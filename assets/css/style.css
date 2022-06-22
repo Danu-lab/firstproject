@@ -462,6 +462,15 @@ body {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .page-wrapper .main .contact-us-section .about-us-content {
+    width: 100%;
+  }
+  .page-wrapper .main .contact-us-section .bg-web {
+    background-size: clamp(200px, 80%, 300px) auto;
+  }
+}
+
 .page-wrapper .footer {
   font-family: 'Galvji';
   background-color: #7364de;

@@ -391,6 +391,14 @@ body {
                     height: 65rem;
                 }
             } 
+            @include sl-media-sm {
+                .about-us-content {
+                    width: 100%;
+                }
+                .bg-web {
+                    background-size: clamp(200px, 80%, 300px) auto;
+                }
+            } 
         }  
     }
     .footer {
